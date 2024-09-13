@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <div class="w-screen h-screen bg-violet-200 flex items-center p-[30px]">
+        <div class="w-[200px] h-full bg-red-500 rounded-[20px] pl-8 py-8 items-center">
+            <div class="h-full w-[1000px] bg-white rounded-[20px] flex">
+
+                <div class="bg-indigo-100 w-[250px] p-[5px] border-indigo-100 rounded-l-[20px]">
+                    <div class="mt-6 ml-4 flex items-center mb-8">
+                        <img src="profilepic.jpg" class="w-[60px] h-[60px] border rounded-[20px] mr-2">
+                        <div class="text-[13px] text-blue-950b">
+                            <p class="font-bold text-blue-950">lldiko Gaspar</p>
+                            <p class="text-indigo-900">@igaspar</p>
+                        </div>
+                    </div>
+
+                    <div class="pl-2">
+                        
+                        <button class="group h-[40px] w-full bg-indigo-100 text-indigo-900 hover:text-blue-950">
+                            <span class="border h-[39px] border-indigo-100 bg-indigo-100 p-[2px] float-left rounded-[5px] group-hover:border-red-500 group-hover:bg-red-500"></span>
+                            <div class="flex ml-4 items-center">
+                                <span class="text-[17px] mr-1"><i class="fa-brands fa-bitbucket"></i></span>
+                                <span class="text-[10px]">General</span>
+                            </div>
+                        </button>
+
+                        <button class="group h-[40px] w-full bg-indigo-100 text-indigo-900 hover:text-blue-950">
+                            <span class="border h-[39px] border-indigo-100 bg-indigo-100 p-[2px] float-left rounded-[5px] group-hover:border-red-500 group-hover:bg-red-500"></span>
+                            <div class="flex ml-4 items-center">
+                                <span class="text-[17px] mr-1"><i class="fa-solid fa-lock"></i></span>
+                                <span class="text-[10px]">Password</span>
+                            </div>
+                        </button>
+
+                        <button class="group h-[40px] w-full bg-indigo-100 text-indigo-900 hover:text-blue-950">
+                            <span class="border h-[39px] border-indigo-100 bg-indigo-100 p-[2px] float-left rounded-[5px] group-hover:border-red-500 group-hover:bg-red-500"></span>
+                            <div class="flex ml-4 items-center">
+                                <span class="text-[17px] mr-1"><i class="fa-regular fa-envelope"></i></span>
+                                <span class="text-[10px]">Invitations</span>
+                            </div>
+                        </button>
+
+                        <button class="group h-[40px] w-full bg-indigo-100 text-indigo-900 hover:text-blue-950">
+                            <span class="border h-[39px] border-indigo-100 bg-indigo-100 p-[2px] float-left rounded-[5px] group-hover:border-red-500 group-hover:bg-red-500"></span>
+                            <div class="flex ml-4 items-center">
+                                <span class="text-[17px] mr-1"><i class="fa-regular fa-square"></i></span>
+                                <span class="text-[10px]">Billing</span>
+                            </div>
+                        </button>
+
+                        <button class="group h-[40px] w-full bg-indigo-100 text-indigo-900 hover:text-blue-950">
+                            <span class="border h-[39px] border-indigo-100 bg-indigo-100 p-[2px] float-left rounded-[5px] group-hover:border-red-500 group-hover:bg-red-500"></span>
+                            <div class="flex ml-4 items-center">
+                                <span class="text-[17px] mr-1"><i class="fa-solid fa-table-cells"></i></span>
+                                <span class="text-[10px]">Apps</span>
+                            </div>
+                        </button>            
+                        
+                    </div>
+
+                    <span class="text-indigo-900 hover:text-blue-950"><p class="mt-[100px] text-[10px] ml-4 c"><i class="fa-solid fa-arrow-right-from-bracket"></i><span class="ml-2">Log out</span></p></span>
+
+                </div>
+
+                <div class="w-[600px] px-[40px] py-[25px]">
+                    <h1 class="text-blue-950 font-bold text-[20px] mb-7">Billing</h1>
+                    <p class="text-blue-950 font-bold text-[10px]">Order History</p>
+                    <p class="text-indigo-900 text-[10px] mb-6">Manage billing information and view receipts</p>
+
+                    <div class="grid grid-cols-3 text-indigo-900 text-[10px] ml-2">
+                        <span>Date</span>
+                        <span>Type</span>
+                        <span>Receipt</span>
+                    </div>
+                    
+                    <button class="grid grid-cols-3 text-[12px] text-blue-950 text-blue-950 p-[5px] w-full items-center hover:shadow-lg hover:shadow-violet-200">
+                        <span class="w-[70px]">Oct. 21, 2021</span>
+                        <span class="w-[65px]">Pro Annual</span>
+                        <span class="ml-1 w-[75px] border border-black p-[5px] rounded-[5px] border-gray-400">Download</span>
+                    </button>
+
+                    <button class="grid grid-cols-3 text-[12px] text-blue-950 text-blue-950 p-[5px] w-full items-center hover:shadow-lg hover:shadow-violet-200">
+                        <span class="w-[73px]">Aug. 21, 2021</span>
+                        <span class="w-[70px]">Pro Portfolio</span>
+                        <span class="ml-1 w-[75px] border border-black p-[5px] rounded-[5px] border-gray-400">Download</span>
+                    </button>
+
+                    <button class="grid grid-cols-3 text-[12px] text-blue-950 text-blue-950 p-[5px] w-full items-center hover:shadow-lg hover:shadow-violet-200">
+                        <span class="w-[72px]">July. 21, 2021</span>
+                        <span class="w-[85px]">Sponsored Post</span>
+                        <span class="ml-1 w-[75px] border border-black p-[5px] rounded-[5px] border-gray-400">Download</span>
+                    </button>
+
+                    <button class="grid grid-cols-3 text-[12px] text-blue-950 text-blue-950 p-[5px] w-full items-center hover:shadow-lg hover:shadow-violet-200">
+                        <span class="w-[70px]">Oct. 21, 2021</span>
+                        <span class="w-[85px]">Sponsored Post</span>
+                        <span class="ml-1 w-[75px] border border-black p-[5px] rounded-[5px] border-gray-400">Download</span>
+                    </button>
+
+                    <a href="link" class="underline text-red-500 text-[12px] hover:text-blue-950">Load more</a>
+
+                    <p class="text-blue-950 font-bold text-[10px] mt-6">Payment Method</p>
+                    <p class="text-indigo-900 text-[10px] mb-2">Manage billing information and view receipts</p>
+
+                    <div class="flex items-center">
+                        <span class="text-blue-900 text-[35px]"><i class="fa-brands fa-cc-visa"></i></span>
+                        <p class="text-blue-950 text-[10px] ml-2">Visa ending in 2255</p>
+                        <button class="border border-gray-400 text-[12px] py-[5px] px-[10px] rounded-[5px] text-blue-950 ml-[180px] hover:bg-blue-950 hover:border-blue-950 hover:text-white">Remove</button>
+                    </div>
+
+                </div>
+
+                <div class="w-[300px] rounded-r-[20px] pr-[40px] pt-[80px] text-white">
+                    <div class="bg-red-500 border-red-500 w-[250px] h-[200px] rounded-[15px] p-[30px]">
+                        <p class="text-[12px] mb-3">Your plan</p>
+                        <p class="font-bold text-[20px] mb-1">Pro Annual</p>
+                        <p class="text-[10px]">Renews on Nov.2021</p>
+                        <button class="mt-4 text-[15px] w-full border border-white p-[5px] rounded-[5px] hover:bg-white hover:text-red-500">Cancel subscription</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
